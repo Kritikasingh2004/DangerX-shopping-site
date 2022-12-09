@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #0f1111;
+  color: white;
+  margin: 0px;
+  padding: 1px 46px;
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+.signup {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 2%;
+  font-family: "Overlock", cursive;
+}
+
+.return {
+  font-family: "Overlock", cursive;
+  height: 100%;
+}
+
+.return:hover{
+    border: 2px solid white;
+}
+
+.serachbar {
+  display: flex;
+}
+
+.serachbar input {
+  width: 41vw;
+  padding: 10px;
+  border: none;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  height: 25px;
+}
+
+.searchbox {
+  background-color: rgb(255, 213, 0);
+  border: none;
+  border-radius: 0 6px 6px 0;
+  width: 3vw;
+}
+
+#select {
+  border: none;
+  border-radius: 6px 0 0 6px;
+  width: 3vw;
+  text-align: center;
+}
+
+.searchicon {
+  width: 24px;
+  padding: 8px 0;
+}
