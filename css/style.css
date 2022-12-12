@@ -4,50 +4,83 @@ body {
   box-sizing: border-box;
 }
 
+/* -----------------------------------------------------------navbar --------------------------------------------------------------------*/
+
 nav {
   background-color: #0f1111;
   color: white;
   margin: 0px;
   padding: 1px 46px;
-  height: 100%;
+  height: 73px;
 }
 
 .list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .list-items {
   list-style-type: none;
 }
 
+/* -------------------------------sign up -------------------------------- */
+
+.signup-box{
+  padding: 13px 0;
+}
+
 .signup {
   border: 2px solid white;
   border-radius: 5px;
-  padding: 10px 2%;
+  padding: 14px 25px;
   font-family: "Overlock", cursive;
+  color: white;
+  text-decoration: none;
+  display: block;
 }
+
+.signup:hover{
+  background-color: white;
+  color: #0f1111;
+}
+
+/* -------------------------------sign up ends-------------------------------- */
+
+/* ----------------------------return and order-------------------------------- */
 
 .return {
   font-family: "Overlock", cursive;
-  height: 100%;
+  padding: 12px;
+  margin: 4px;
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
 .return:hover{
-    border: 2px solid white;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-decoration: none;
 }
+
+/* ----------------------------return and order ends-------------------------------- */
+
+/* -----------------------------------search box section-------------------------------- */
 
 .serachbar {
   display: flex;
+  padding: 15px;
 }
 
 .serachbar input {
-  width: 41vw;
+  width: 40vw;
   padding: 10px;
   border: none;
   border-right: 1px solid grey;
   border-left: 1px solid grey;
-  height: 25px;
+  height: 26px;
 }
 
 .searchbox {
@@ -55,6 +88,7 @@ nav {
   border: none;
   border-radius: 0 6px 6px 0;
   width: 3vw;
+  cursor: pointer;
 }
 
 #select {
@@ -62,9 +96,34 @@ nav {
   border-radius: 6px 0 0 6px;
   width: 3vw;
   text-align: center;
+  cursor: pointer;
 }
 
 .searchicon {
   width: 24px;
   padding: 8px 0;
 }
+
+/* -----------------------------------search box section ends-------------------------------- */
+
+/* -----------------logo container----------------- */
+
+.icon-container{
+  cursor: pointer;
+  display: flex;
+}
+
+.logo{
+  width: 55px;
+  padding: 14px 0 14px 14px;
+}
+
+.site-name {
+  font-size: 37px;
+  padding: 14px 0;
+  font-family: "Overlock", cursive;
+  
+}
+/* -----------------logo container ends----------------- */
+
+/* -----------------------------------------------------------navbar ends------------------------------------------------------------------------------ */
