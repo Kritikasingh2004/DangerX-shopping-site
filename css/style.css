@@ -111,15 +111,23 @@ nav {
 .icon-container{
   cursor: pointer;
   display: flex;
+  margin: 4px;
+height: 63px;
+padding-right: 10px;
+}
+
+.icon-container:hover{
+  border: 1px solid white;
+  border-radius: 3px;
 }
 
 .logo{
-  width: 55px;
+  width: 50px;
   padding: 14px 0 14px 14px;
 }
 
 .site-name {
-  font-size: 37px;
+  font-size: 29px;
   padding: 14px 0;
   font-family: "Overlock", cursive;
   
