@@ -2,12 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* -----------------------------------------------------------navbar --------------------------------------------------------------------*/
 
 nav {
-  background-color: #0f1111;
+  background-color: #000000;
   color: white;
   margin: 0px;
   padding: 1px 46px;
@@ -35,15 +36,13 @@ nav {
   border: 2px solid white;
   border-radius: 5px;
   padding: 14px 25px;
-  font-family: "Overlock", cursive;
   color: white;
   text-decoration: none;
   display: block;
 }
 
 .signup:hover{
-  background-color: white;
-  color: #0f1111;
+  background-color: green;
 }
 
 /* -------------------------------sign up ends-------------------------------- */
@@ -51,7 +50,6 @@ nav {
 /* ----------------------------return and order-------------------------------- */
 
 .return {
-  font-family: "Overlock", cursive;
   padding: 12px;
   margin: 4px;
   text-decoration: none;
@@ -84,11 +82,15 @@ nav {
 }
 
 .searchbox {
-  background-color: rgb(255, 213, 0);
+  background-color: green;
   border: none;
   border-radius: 0 6px 6px 0;
   width: 3vw;
   cursor: pointer;
+}
+
+.searchbox:hover{
+  background-color: greenyellow;
 }
 
 #select {
@@ -129,7 +131,6 @@ padding-right: 10px;
 .site-name {
   font-size: 29px;
   padding: 14px 0;
-  font-family: "Overlock", cursive;
   
 }
 /* -----------------logo container ends----------------- */
