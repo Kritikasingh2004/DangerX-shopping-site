@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: black;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.upper {
+  margin: 4%;
+  width: 158px;
+  display: inline-block;
+  color: white;
+}
+
+.main {
+  width: 33vw;
+  margin: 146px auto;
+  display: block;
+}
+
+.main-img{
+  width: 25vw;
+}
+
+.main h1{
+  color: white;
+  font-size: 2vw;
+  margin: 0 25%;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------signup form------------------------------ */
+
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.name-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.name {
+  width: calc(100% / 2 - 5px);
+}
+
+.input-box {
+  width: calc(100% - 100px);
+  margin-bottom: 20px;
+}
+
+.details {
+  color: white;
+  font-size: 0.95em;
+}
+
+.details-small {
+  color: white;
+  font-size: 0.9em;
+}
+
+.user-details input {
+  height: 30px;
+  width: 100%;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.input-box a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.input-box a:hover{
+  color: green;
+}
+
+.button button {
+  width: 9vw;
+  text-align: center;
+  padding: 10px 23px;
+  margin: 10px 32%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background-color: green;
+}
+
+.form-container {
+  margin: 23px;
+}
+
+/* ---------------------------signup form------------------------------ */
+
+/* ------------------------------login page element------------------------ */
+.rememberme{
+  display: flex;
+}
+
+#remember{
+  width: 57px;
+}
+/* ------------------------------login page element------------------------ */
