@@ -136,3 +136,33 @@ padding-right: 10px;
 /* -----------------logo container ends----------------- */
 
 /* -----------------------------------------------------------navbar ends------------------------------------------------------------------------------ */
+
+
+/* ------------------new section---------------------- */
+
+.section{
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  border-bottom: solid 1px gray;
+}
+
+.options a img{
+  padding: 0 25px;
+  width: 77px;
+}
+
+.options a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.options a{
+  color: green;
+}
+
+.options a span{
+  display: inline-block;
+  text-align: center;
+}
