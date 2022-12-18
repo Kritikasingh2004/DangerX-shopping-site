@@ -23,9 +23,20 @@
 
 .upper {
   margin: 4%;
-  width: 158px;
+  width: 203px;
   display: inline-block;
   color: white;
+}
+
+.upper a{
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid white;
+  padding: 0 13px;
+}
+
+.upper a:hover{
+  color: green;
 }
 
 .main {
