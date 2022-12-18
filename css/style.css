@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #80808021;
 }
 
 /* -----------------------------------------------------------navbar --------------------------------------------------------------------*/
@@ -28,20 +29,21 @@ nav {
 
 /* -------------------------------sign up -------------------------------- */
 
-.signup-box{
+.signup-box {
   padding: 13px 0;
 }
 
 .signup {
   border: 2px solid white;
   border-radius: 5px;
-  padding: 14px 25px;
+  padding: 15px 25px;
   color: white;
+  font-size: 19px;
   text-decoration: none;
   display: block;
 }
 
-.signup:hover{
+.signup:hover {
   background-color: green;
 }
 
@@ -55,12 +57,14 @@ nav {
   text-decoration: none;
   color: white;
   display: block;
+  font-size: 19px;
 }
 
-.return:hover{
+.return:hover {
+  padding: 11px;
   border: 1px solid white;
   border-radius: 3px;
-  text-decoration: none;
+  background-color: green;
 }
 
 /* ----------------------------return and order ends-------------------------------- */
@@ -79,28 +83,20 @@ nav {
   border-right: 1px solid grey;
   border-left: 1px solid grey;
   height: 26px;
+  border-radius: 5px 0 0 5px;
 }
 
 .searchbox {
   background-color: green;
   border: none;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 5px 5px 0;
   width: 3vw;
   cursor: pointer;
 }
 
-.searchbox:hover{
+.searchbox:hover {
   background-color: greenyellow;
 }
-
-#select {
-  border: none;
-  border-radius: 6px 0 0 6px;
-  width: 3vw;
-  text-align: center;
-  cursor: pointer;
-}
-
 .searchicon {
   width: 24px;
   padding: 8px 0;
@@ -110,59 +106,145 @@ nav {
 
 /* -----------------logo container----------------- */
 
-.icon-container{
+.icon-container {
   cursor: pointer;
-  display: flex;
   margin: 4px;
-height: 63px;
-padding-right: 10px;
+  height: 63px;
 }
 
-.icon-container:hover{
-  border: 1px solid white;
-  border-radius: 3px;
+.icon-container a {
+  text-decoration: none;
+  display: flex;
+  color: white;
 }
 
-.logo{
+.logo {
   width: 50px;
   padding: 14px 0 14px 14px;
 }
 
 .site-name {
   font-size: 29px;
-  padding: 14px 0;
-  
+  padding: 18px 14px 14px 0;
 }
 /* -----------------logo container ends----------------- */
 
 /* -----------------------------------------------------------navbar ends------------------------------------------------------------------------------ */
 
-
 /* ------------------new section---------------------- */
 
-.section{
+.section {
   display: flex;
   justify-content: space-around;
   padding: 12px 0;
   border-bottom: solid 1px gray;
+  box-shadow: 6px 0.1px 10px gray;
+  background-color: white;
 }
 
-.options a img{
+.options a img {
   padding: 0 25px;
   width: 77px;
 }
 
-.options a{
+.options a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
 
-.options a{
+.options a:hover {
   color: green;
 }
 
-.options a span{
+.options a span {
   display: inline-block;
   text-align: center;
+}
+/* ------------------new section---------------------- */
+
+/* ----------------------------------cards------------------------ */
+
+/* -----------------conatiner--------------------- */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 35px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  box-shadow: 6px 0.1px 10px gray;
+}
+
+.card {
+  padding: 30px 13px;
+}
+
+.card img {
+  width: 140px;
+  padding: 20px;
+}
+
+/* -----------------conatiner--------------------- */
+
+.cover {
+  border-right: 1px solid gray;
+}
+
+.c1{
+  background: linear-gradient(to right, greenyellow, green);
+}
+.c2{
+  background: linear-gradient(to right, cyan, blue);
+}
+.c3{
+  background: linear-gradient(to right, pink, red);
+}
+.c4{
+  background: linear-gradient(to right, yellow, orange);
+}
+
+.card span {
+  display: block;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px 0;
+}
+
+.discount {
+  color: green;
+}
+
+.explore-now {
+  color: gray;
+}
+.product {
+  height: 160px;
+}
+
+.cover-txt {
+  font-size: 25px;
+}
+
+.spl-photo{
+  height: 165px;
+}
+
+/* ----------------------------------cards------------------------ */
+
+/* -------------------------footer------------------------ */
+
+footer {
+  background-color: black;
+  height: 100px;
+  margin-top: 35px;
+  box-shadow: 6px 0.1px 10px gray;
 }
