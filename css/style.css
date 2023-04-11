@@ -14,6 +14,8 @@ nav {
   margin: 0px;
   padding: 1px 46px;
   height: 73px;
+  position: sticky;
+  top: 0;
 }
 
 .list {
@@ -25,6 +27,10 @@ nav {
 
 .list-items {
   list-style-type: none;
+}
+
+.toggle-bar {
+  display: none;
 }
 
 /* -------------------------------sign up -------------------------------- */
@@ -151,6 +157,7 @@ nav {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  color: black;
 }
 
 .options a:hover {
@@ -177,10 +184,6 @@ nav {
   box-shadow: 6px 0.1px 10px gray;
 }
 
-.card {
-  padding: 30px 13px;
-}
-
 .card img {
   width: 140px;
   padding: 20px;
@@ -191,18 +194,32 @@ nav {
 .cover {
   border-right: 1px solid gray;
 }
-
-.c1{
-  background: linear-gradient(to right, greenyellow, green);
+.c1 {
+  background: linear-gradient(to right, #ff2f2f, green);
 }
-.c2{
+.c2 {
   background: linear-gradient(to right, cyan, blue);
 }
-.c3{
-  background: linear-gradient(to right, pink, red);
+.c3 {
+  background: linear-gradient(to right, #f1ffc0, red);
 }
-.c4{
-  background: linear-gradient(to right, yellow, orange);
+.c4 {
+  background: linear-gradient(to right, #8000ff, orange);
+}
+.c5 {
+  background: linear-gradient(to right, #00ffa5, #004dff);
+}
+.c6 {
+  background: linear-gradient(to right, #5cff00, #ffcb00);
+}
+.c7 {
+  background: linear-gradient(to right, #ffa700, #00e7ff);
+}
+.c8 {
+  background: linear-gradient(to right, #0800ff, #00ff34);
+}
+.c9 {
+  background: linear-gradient(to right, #af00ff, #00ffb7);
 }
 
 .card span {
@@ -217,6 +234,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 25px 0;
+  height: 305px;
 }
 
 .discount {
@@ -232,19 +250,49 @@ nav {
 
 .cover-txt {
   font-size: 25px;
+  color: white;
+  width: 135px;
+  margin: 74px auto 0 auto;
 }
 
-.spl-photo{
+.cover button {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid gray;
+  width: 119px;
+  border-radius: 4px;
+  color: white;
+  padding: 13px;
+  font-size: 15px;
+  margin: auto;
+}
+
+.cover a {
+  text-decoration: none;
+  color: black;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 150px);
+  gap: 0;
+  height: 305px;
+}
+
+.spl-photo {
   height: 165px;
 }
 
-/* ----------------------------------cards------------------------ */
+/* --------------------------------------------cards-------------------------------------- */
 
-/* -------------------------footer------------------------ */
+/* ------------------------------------------------------footer----------------------------------------------------- */
 
 footer {
   background-color: black;
   height: 100px;
   margin-top: 35px;
   box-shadow: 6px 0.1px 10px gray;
+}
+
+footer div {
+  color: white;
+  width: 100%;
+  padding-top: 68px;
+  padding-left: 702px;
 }
