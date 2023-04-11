@@ -207,7 +207,7 @@ nav {
   background: linear-gradient(to right, #8000ff, orange);
 }
 .c5 {
-  background: linear-gradient(to right, #00ffa5, #004dff);
+  background: linear-gradient(to right, #00ffa5, #004dff)
 }
 .c6 {
   background: linear-gradient(to right, #5cff00, #ffcb00);
@@ -216,7 +216,7 @@ nav {
   background: linear-gradient(to right, #ffa700, #00e7ff);
 }
 .c8 {
-  background: linear-gradient(to right, #0800ff, #00ff34);
+  background: linear-gradient(to right, #0800ff, #00ff34)
 }
 .c9 {
   background: linear-gradient(to right, #af00ff, #00ffb7);
@@ -288,11 +288,4 @@ footer {
   height: 100px;
   margin-top: 35px;
   box-shadow: 6px 0.1px 10px gray;
-}
-
-footer div {
-  color: white;
-  width: 100%;
-  padding-top: 68px;
-  padding-left: 702px;
 }
